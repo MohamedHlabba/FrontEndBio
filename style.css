@@ -1,0 +1,58 @@
+html {
+  background-color: rgba(179, 152, 77, 0.801);
+}
+
+body {
+  text-align: center;
+  /* color: cornsilk; */
+}
+header {
+  padding-top: 0px;
+}
+h1 {
+  background-color: darkgoldenrod;
+  padding-block-start: 0px;
+}
+footer {
+  height: 50px;
+  background-color: darkgoldenrod;
+  padding-top: 10px;
+}
+
+#pid {
+  width: 50%;
+}
+#div1 {
+  display: flex;
+
+  justify-content: center;
+
+  text-align: center;
+}
+#img1 {
+  width: 300px;
+  height: 315px;
+}
+#navid {
+  background-color: rgb(139, 121, 74);
+  text-align: center;
+}
+
+#idlist {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#idlist > li > a {
+  color: blue;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 7px;
+}
+iframe {
+  width: 560px;
+  height: 315px;
+  border: 0;
+}
