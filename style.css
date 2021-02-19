@@ -1,22 +1,57 @@
 html {
-  background-color: rgba(179, 152, 77, 0.801);
+  /* background-color: rgba(179, 152, 77, 0.801); */
+  /* background-image: url(pict1.jpg); */
+  background-color: #cccccc;
+  width: auto;
 }
 
 body {
   text-align: center;
-  /* color: cornsilk; */
+  color: black;
 }
 header {
-  padding-top: 0px;
+  padding-top: unset;
 }
-h1 {
-  background-color: darkgoldenrod;
-  padding-block-start: 0px;
+.h1 {
+  background-color: rgb(24, 23, 20);
+  /* color: azure; */
+  text-transform: uppercase;
+  /* text-shadow: 2px 2px 2px #cccccc; */
+  /* color: #444444; */
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+  text-align: center;
+  font-size: 46px;
+  position: sticky;
+  font-family: verdana;
+  margin-top: 0;
+
+  color: #d0f8ff;
+  text-shadow: 0 0 5px #a5f1ff, 0 0 10px #a5f1ff, 0 0 20px #a5f1ff,
+    0 0 30px #a5f1ff, 0 0 40px #a5f1ff;
 }
-footer {
+
+/* font-family: Georgia, "Times New Roman", Times, serif; */
+
+.inset {
+  background: #cccccc;
+  text-shadow: 0 1px 0 #ffffff;
+  width: 50%;
+}
+.neon {
+  color: #d0f8ff;
+  text-shadow: 0 0 5px #a5f1ff, 0 0 10px #a5f1ff, 0 0 20px #a5f1ff,
+    0 0 30px #a5f1ff, 0 0 40px #a5f1ff;
+}
+.footer {
   height: 50px;
-  background-color: darkgoldenrod;
-  padding-top: 10px;
+  background-color: darkturquoise;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding: 0px;
+}
+.footer > p {
+  text-align: center;
 }
 
 #pid {
@@ -30,29 +65,60 @@ footer {
   text-align: center;
 }
 #img1 {
-  width: 300px;
-  height: 315px;
+  /* width: 300px;
+  height: 315px; */
+  width: 400px;
+  height: 250px;
+  border-image: 30 round;
 }
 #navid {
-  background-color: rgb(139, 121, 74);
+  background-color: rgb(24, 23, 20);
+
   text-align: center;
+  color: #cccccc;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888, 0 3px 0 #777777,
+    0 4px 0 #666666, 0 5px 0 #555555, 0 6px 0 #444444, 0 7px 0 #333333,
+    0 8px 7px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.2);
 }
 
 #idlist {
-  list-style-type: none;
   display: inline-flex;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: auto;
   overflow: hidden;
+  text-align: center;
+  color: #cccccc;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888, 0 3px 0 #777777,
+    0 4px 0 #666666, 0 5px 0 #555555, 0 6px 0 #444444, 0 7px 0 #333333,
+    0 8px 7px rgba(0, 0, 0, 0.4), 0 9px 10px rgba(0, 0, 0, 0.2);
 }
 #idlist > li > a {
-  color: blue;
+  color: white;
   display: inline-block;
   text-align: center;
-  padding: 5px 7px;
+  padding: 10px 7px;
+  margin-bottom: auto;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 }
 iframe {
   width: 560px;
   height: 315px;
-  border: 0;
 }
+.iframe-border {
+  border: 3px solid #eee;
+}
+/* .vid-border {
+  height: 315px;
+  width: 560px;
+  border: 5px solid black;
+}
+#vid {
+  height: 315px;
+  width: 560px;
+  text-align: center;
+} */
+/* #footimg {
+  height: 5px;
+  width: 5px;
+  background-color: olive;
+} */
